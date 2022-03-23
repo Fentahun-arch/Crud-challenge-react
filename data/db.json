@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 7,
+      "title": "Sunday ",
+      "datetime": "March 23, 2022 9:20:57 AM",
+      "body": "Sunday market is the place where new goods are sold in cheap cost or low cost"
+    },
+    {
+      "id": 9,
+      "title": "new_post",
+      "datetime": "March 21, 2022 3:27:09 PM",
+      "body": "new post is the fashion to see and buy with low cost or price"
+    },
+    {
+      "id": 10,
+      "title": "Pyjama and Trouser",
+      "datetime": "March 21, 2022 4:34:59 PM",
+      "body": "this is the best fashion in the world ."
+    },
+    {
+      "id": 11,
+      "title": "Device Emulation",
+      "datetime": "March 21, 2022 4:36:25 PM",
+      "body": "Device Emulation is used to emulate something to the specified device you want"
+    },
+    {
+      "id": 12,
+      "title": "Fen device ",
+      "datetime": "March 21, 2022 8:22:04 PM",
+      "body": "This is also an emulating device created by me now. what? !!!\nWhen this month is good i will do something important."
+    },
+    {
+      "id": 13,
+      "title": "Samsung A10",
+      "datetime": "March 23, 2022 9:20:31 AM",
+      "body": "The best device in the world to be sold in trust warranty for one year for replaceable if it gets problem"
+    },
+    {
+      "id": 14,
+      "title": " hard struggle",
+      "datetime": "March 23, 2022 10:09:15 AM",
+      "body": "After hard struggle we get what we want."
+    },
+    {
+      "id": 15,
+      "title": "Responsive emulator",
+      "datetime": "March 23, 2022 10:17:01 AM",
+      "body": "great emulator for emulator and other."
+    }
+  ]
+}
