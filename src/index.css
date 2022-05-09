@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
@@ -28,7 +28,7 @@ body {
 
 .App {
   width: 100%;
-  max-width: 800px;
+  max-width: 1600px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -42,10 +42,20 @@ body {
 .Footer {
   width: 100%;
   background-color: #66d8f5;
-  padding: 1rem;
+  padding: 0.1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+img {
+  width: 100%;
+  /* background-color: #66d8f5; */
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  text-decoration: none;
 }
 
 .Header h1 {
@@ -57,7 +67,7 @@ body {
 }
 
 .Footer {
-  padding: 0.75rem;
+  padding: 0.01px;
   display: grid;
   place-content: center;
 }
@@ -76,9 +86,9 @@ body {
   padding: 1rem 0 0 0.75rem;
 }
 
-.searchForm input[type="text"] {
-  font-family: "Open Sans", sans-serif;
-  width: 100%;
+.searchForm input[type='text'] {
+  font-family: 'Open Sans', sans-serif;
+  width: 50%;
   min-height: 48px;
   font-size: 1rem;
   padding: 0.25rem;
@@ -130,14 +140,47 @@ body {
 .NewPost,
 .PostPage,
 .About,
-.Missing {
+.Missing,
+.service,
+.contact,
+.sign {
   width: 100%;
   flex-grow: 1;
   padding: 1rem;
   overflow-y: auto;
   background-color: #fff;
 }
-
+.service #serve {
+  text-align: center;
+}
+.service p {
+  margin-left: 200px;
+}
+.contact h1 {
+  text-align: center;
+}
+.contact p {
+  margin-left: 200px;
+}
+.sign-btn {
+  color: white;
+  background-color: darkgreen;
+  width: 80px;
+  height: 50px;
+  border-radius: 300px;
+  font-size: 20px;
+}
+.sign-btn:hover {
+  background-color: lightseagreen;
+}
+.sign h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.sign p {
+  margin-left: 200px;
+}
 .post {
   margin-top: 1rem;
   padding-bottom: 1rem;
@@ -179,9 +222,9 @@ body {
   margin-top: 1rem;
 }
 
-.newPostForm input[type="text"],
+.newPostForm input[type='text'],
 .newPostForm textarea {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   width: 100%;
   min-height: 48px;
   font-size: 1rem;
@@ -267,7 +310,7 @@ body {
     padding: 0.5rem 0;
   }
 
-  .searchForm input[type="text"] {
+  .searchForm input[type='text'] {
     margin-left: 0.5rem;
   }
 
